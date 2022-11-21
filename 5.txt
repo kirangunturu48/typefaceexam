@@ -1,0 +1,17 @@
+Downloading all Images in a webpage
+
+1. Modules needed : BS4, requests, os
+
+2. Get the HTML code and Parse with BeautifulSoup
+
+    soup = BeautifulSoup(r.text, 'html.parser')
+
+3. Find all the img tags in the html code
+     
+     images = soup.findAll('img')
+
+4. Download the Images 
+
+
+
+Parsing all the text 
